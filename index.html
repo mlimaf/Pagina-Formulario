@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Conecte-se para se conectar</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <header>
-      <h1>Conecte-se com pessoas de estilo.</h1>
-      <p>Abaixo você encontra formulário para receber nosso acesso exclusivo a
-         comunidade de pessoas assim como você se preocupam com estilo.</p>
-    </header>
-
-    <section class="hero">
-      <h2>Inscreva-se para receber atualizações</h2>
-      <form id="signup-form">
-        <input type="text" id="name" name="name" placeholder="Nome" required>
-        <input type="email" id="email" name="email" placeholder="E-mail" required>
-        <button type="submit" id="submit-btn">Inscreva-se</button>
-      </form>
-    </section>
+    <h1>Formulário de Inscrição</h1>
+    <form id="signup-form">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Inscreva-se</button>
+    </form>
+    
     <script src="script.js"></script>
   </body>
-  
 </html>

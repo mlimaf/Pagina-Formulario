@@ -1,74 +1,47 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-
-*{
- margin: 0;
- padding: 0;
- }
-
 body {
-font-family: Arial, sans-serif;
-background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
 }
 
 h1 {
-font-family: Arial, sans-serif;   
-color: #333;
-text-align: center;
+  text-align: center;
+  margin-top: 50px;
 }
 
-p {
-  font-family: Arial, sans-serif;   
-color: #df1c1c;
-text-align: center; 
-margin:0; 
-}
-
-h2{
-font-family: Arial, sans-serif;   
-color: #333;
-text-align: center;  
-}
-
-.hero {
-  background-color: #fff;
+form {
   max-width: 500px;
   margin: 0 auto;
+  background-color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-  
+}
 
-form {
-background-color: #fff;
-			padding: 20px;
-			margin: 0 auto;
-			width: 400px;
-			border-radius: 5px;
-			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-		}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-
-        
-input[type=text],
-input[type=email],
-button[type=submit] {
+input {
   display: block;
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: none;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #333;
   color: #fff;
   cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #444;
 }
-
